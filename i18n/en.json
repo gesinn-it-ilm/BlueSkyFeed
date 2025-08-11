@@ -1,0 +1,9 @@
+{
+  "@metadata": {
+    "authors": [
+      "Marko Ilic"
+    ]
+  },
+  "blueskyfeed-desc": "Embed BlueSky feed using AT Protocol API",
+  "blueskyfeed-error-no-username": "BlueSky username missing."
+}
