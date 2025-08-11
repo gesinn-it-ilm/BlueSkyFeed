@@ -1,0 +1,16 @@
+{
+  "name": "BlueSkyFeed",
+  "version": "0.1.0",
+  "author": "MI",
+  "description": "Embed BlueSky feed using AT Protocol API",
+  "type": "parserhook",
+  "LicenseName": "MIT",
+  "AutoloadClasses": {
+    "BlueSkyFeedHooks": "includes/BlueSkyFeedHooks.php",
+    "BlueSkyApiClient": "includes/BlueSkyApiClient.php"
+  },
+  "Hooks": {
+    "ParserFirstCallInit": "BlueSkyFeedHooks::onParserFirstCallInit"
+  },
+  "ManifestVersion": 2
+}
